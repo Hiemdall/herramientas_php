@@ -1,0 +1,26 @@
+ /* Estilos para los botones */
+ button {
+    background-color: #007bff; /* Color azul */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px; /* Separación entre botones */
+}
+
+/* Estilos para el fondo de la página */
+body {
+    background-color: #f8f9fa; /* Color gris claro */
+}
+
+/* Estilos para el contenedor de los botones */
+.botones {
+    display: flex; /* Contenedor flexible */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+    flex-wrap: wrap; /* Dividir en varias líneas cuando no caben */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
